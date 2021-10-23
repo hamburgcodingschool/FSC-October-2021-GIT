@@ -3,21 +3,44 @@ body {
 }
 
 .page {
-  background-color: orange;
 
-  color: rgb(25, 149, 180);
+  background-color: #d6c6d8;
+  color: black;
 }
 
 h1, h2 {color: midnightblue;}
 
 .stage {
 
-  background-color: lightcyan;
+  background-color: #eb97f7;
 
-}
 
 .text-highlight {
-  color: #f89f5a;
+  color: #4b4846;
+}
+
+h2{
+  font-size: 3rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif:
+}
+
+ul{
+
+  background-color: rgb(70, 107, 105);
+  color: rgb(25, 61, 90);
+  font-size: 2rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  animation-name: test01;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  
+}
+
+@keyframes test01 {
+  0%   {background-color: rgb(185, 82, 82);}
+  25%  {background-color: rgb(83, 179, 126);}
+  50%  {background-color: rgb(49, 49, 105);}
+  100% {background-color: rgb(135, 55, 143);}
 }
 
 .hero--transport {
