@@ -1,11 +1,25 @@
-# {{ Course Name }}
-## Full Stack Course - {{ Start Date }}
+# Git & Github
+## Full Stack Course - October 2021
 
-### ✏️ Homework
+### Initial Setup and Configuration
 
-- Homework will be posted here
+1. Download and Install: https://git-scm.com/downloads
 
-### 📄 Docs
+2. Configure Default Editor (optional)
+
+```
+git config --global core.editor "vim"
+```
+
+3. Configure User Identity
+```
+git config --global user.name "Paul Anton"
+git config --global user.email "paul.antton@gmail.com"
+```
+
+
+
+### 📄 Resources
 
 - [Lesson Summary](https://...)
 
@@ -13,9 +27,5 @@
 
 - [Outline](https://...)
 
-
-### 🤔 Questions?
-
-Use the Slack channel #{{ slack-channel }}
 
 > To join Slack just click on this [link](https://hamburgcodingschool.slack.com/join/shared_invite/enQtMjczNDI3OTE4NzIwLTE2ZmNkNDk5YTg3MDFlOTY2ZmU2YzU5YTU4MTNhNDg4MTRhNTMwYzFiNTdlOTdhYzllYzg5YmVkYzljNWExY2U#/)
