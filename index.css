@@ -1,12 +1,19 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 .page {
+
   background-color: #d6c6d8;
   color: black;
 }
 
+h1, h2 {color: midnightblue;}
+
 .stage {
+
   background-color: #eb97f7;
-}
+
 
 .text-highlight {
   color: #4b4846;
@@ -34,4 +41,9 @@ ul{
   25%  {background-color: rgb(83, 179, 126);}
   50%  {background-color: rgb(49, 49, 105);}
   100% {background-color: rgb(135, 55, 143);}
+}
+
+.hero--transport {
+  max-width: 800px;
+  height: auto;
 }
