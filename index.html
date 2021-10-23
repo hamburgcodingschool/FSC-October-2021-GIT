@@ -5,28 +5,39 @@
     <title>
       Holiday Planner
     </title>
-    <link rel="stylesheet" href="index.css">
-
+  <style>
+    #Destinations {
+      background-color: blue;
+      text-align: center;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      color: cornsilk;
+    }
+    #destinationList {
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+  </style>
   </head>
-
   <body>
-
   <div class="container page">
     <div class="stage row">
 
-      <div class="left-side col-md-6 col-sm-12">
-        <h1>Holiday Planner for just <span class="text-highlight">$24/Day</span></h1>
+      <div>
+        <h1>Holiday Planner for just $24/Day</span></h1>
 
-        <h2> Destinations </h2>
+        <h2 id="Destinations"> Destinations &#127796; </h2>
           <!-- Alice & Oliver -->
-          <ul>
-            <li> Japan </li>
+          <ol id="destinationList">
+            <li> Mordor </li>
             <li> Cuba </li>
+            <li> Winterfell </li>
+            <li> Madagascar </li>
+
 
           </ul>
 
 
-        <h2> Activities </h2>
+        <h3> Activities </h3>
           <!-- Magdalena & Jonas H -->
           <ul>
             <li> Hiking </li>
@@ -34,7 +45,7 @@
           </ul>
 
 
-        <h2> Transportation </h2>
+        <h3> Transportation </h3>
           <!-- Marcel & Jonas S -->
           <ul>
             <li> Go by car </li>
@@ -42,7 +53,7 @@
 
           </ul>
 
-        <h2> Food </h2>
+        <h3> Food </h3>
           <!-- Paul & Immo -->
           <ul>
             <li>Mexican food</li>
