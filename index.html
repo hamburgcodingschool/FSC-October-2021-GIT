@@ -1,12 +1,57 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
   <head>
     <meta charset="utf-8">
     <title>
       Holiday Planner
     </title>
+    <style>
+      body{
+        background-color: seagreen;
+      }
+      .Activities{
+        list-style-type: square;
+        font-family: fantasy;
+        margin: 10px;
+      }
+      .left-side col-md-6 col-sm-12{
+        background-color: tomato;
+      }
+
+    </style>
     <link rel="stylesheet" href="index.css">
 
+    <style>
+        /* CSS RULES */
+        /*
+        selector {
+            property1: value;
+            property2: value;
+            property3: value;
+        }
+        */
+
+        #title {
+            color: pink; /* this is always the text color */
+            background-color: yellow;
+            font-weight: normal;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 150px;
+            line-height: 175px;
+        }
+
+        #p1 {
+            color: red;
+            font-style: italic;
+        }
+
+        #p2 {
+            color: blue;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    </style>
   </head>
 
   <body>
@@ -29,25 +74,50 @@
 
         <h2> Activities </h2>
           <!-- Magdalena & Jonas H -->
-          <ul>
-            <li> Hiking </li>
-
+          <ul class="Activities">
+            <li><a href="https://a2.tvspielfilm.de/imedia/5130/9565130,sPzKdflUETRxFMqrjqEBucZ6HLSl0cHLvJx1eOuBzEEXuH7siuHw_26_VOMvWNMOepG3631TX+sROIR1mOTDhQ==.jpg" target="_blank"><https://a2.tvspielfilm.de/imedia/5130/9565130,sPzKdflUETRxFMqrjqEBucZ6HLSl0cHLvJx1eOuBzEEXuH7siuHw_26_VOMvWNMOepG3631TX+sROIR1mOTDhQ==.jpg> Visiting some local legends like...</a></li>
+            <li><a href="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQhNIm7bm5MvPqaZfP8Efq8-952dQHICVv_DLp4IzzGmqp2Vqr42gRYJV3N8bRykKI2LFkSwvp0iP6I&usqp=CAc" target="_blank"><https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQhNIm7bm5MvPqaZfP8Efq8-952dQHICVv_DLp4IzzGmqp2Vqr42gRYJV3N8bRykKI2LFkSwvp0iP6I&usqp=CAc>Dressing like the local people</a></li>
+            <li><a href="http://beta.ems.ladbiblegroup.com/s3/content/30bbec055851b8c04952619fb6f3a426.jpg" target="_blank"><http://beta.ems.ladbiblegroup.com/s3/content/30bbec055851b8c04952619fb6f3a426.jpg>Drinking like the local people</a></li>
+            <li><a href="https://ichef.bbci.co.uk/news/976/cpsprodpb/41FB/production/_113919861_hi045965426.jpg" target="_blank"><https://ichef.bbci.co.uk/news/976/cpsprodpb/41FB/production/_113919861_hi045965426.jpg>Getting a local haircut</a></li>
           </ul>
 
-
-        <h2> Transportation </h2>
-          <!-- Marcel & Jonas S -->
-          <ul>
-            <li> Go by car </li>
-            <li> Go by train </li>
-
-          </ul>
+					<h2>Transportation</h2>
+					<!-- Marcel & Jonas S -->
+					<img
+						class="hero--transport"
+						src="https://www.prbx.com/wp-content/uploads/2018/03/PRBX_Transportation_1300x550-1300x550.jpg"
+						alt="Transportation Ideas"
+					/>
+					<ul>
+						<li>Go by bike</li>
+						<li>
+							Go by car
+							<ul>
+								<li>petrol car</li>
+								<li>Tesla</li>
+							</ul>
+						</li>
+						<li>Go by train</li>
+						<li>Go by kite</li>
+						<li>Go by E-Scooter</li>
+					</ul>
 
         <h2> Food </h2>
           <!-- Paul & Immo -->
+
+        <div id = Center-List>
           <ul>
-            <li>Mexican food</li>
+            <li class = "Foods">Mexican food</li>
+            <li class = "Foods">Greek Food</li>
+            <li class = "Foods">Spanish Food</li>
+            <li class = "Foods">Mediterranean Cuisine</li>
+            <li class = "Foods">Lebanese Cuisine</li>
+            <li class = "Foods">Moroccan Cuisine</li>
+            <li class = "Foods">Turkish Cuisine</li>
           </ul>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcDghmNVT4UomcjGMuBYYDmNeU4_z1qyA4fQ&usqp=CAU" alt="Picture">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM4rvOJPB3cRNwhtobAHYGbPsBPbY4LLAVjg&usqp=CAU" alt="Picture">
+ </div>
         <div class="row">
         </div>
     </div>
