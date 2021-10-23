@@ -17,7 +17,14 @@ git config --global user.name "Paul Anton"
 git config --global user.email "paul.antton@gmail.com"
 ```
 
+4. Install git-gui on mac (optional)
+```
+brew install git-gui
+```
 
+#### MacOS Issues:
+
+* Authentication - https://stackoverflow.com/a/68780401/1368705
 
 ### 📄 Resources
 
